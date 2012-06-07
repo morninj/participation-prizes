@@ -1,0 +1,388 @@
+/* general */
+
+/* colors
+Page bg: #f2f2f2
+Blue: #006ca2
+Pink: #fdf6f6
+Red Text: #990000
+Orange Test: cc6633
+*/
+
+body {
+  background-color: #f2f2f2;
+  font-family: verdana, sans-serif;
+  font-size: 76%;
+  color: #000;
+	padding: 0;
+	margin: 1em 0 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #990000;
+}
+
+img {
+  border: 0;
+}
+  
+a img {
+  border: 0;
+}
+
+/* layout */
+
+#width-oppressor {
+  width: 886px;
+  margin: 0 auto;
+}
+
+/* header */
+
+#header .series {
+  margin-right: 10px;
+}
+
+#header .series .label {
+	font-size: 0.93em;
+	font-family: Arial, Verdana, sans-serif;
+	letter-spacing: .1em;
+}
+
+#header .series h1.title {
+  margin-top: .3em;
+	font-size: 2em;
+	color: #990000;
+  font-family: Arial, Verdana, sans-serif;
+  margin-bottom: .2em;
+}
+
+/* nav */
+
+ul.nav,
+ul.nav li {
+	margin: 0;
+	padding: 0;
+}
+
+ul.nav {
+  list-style-type: none;
+	padding-bottom: 9px;
+}
+
+ul.nav li {
+  list-style-type: none;
+  display: inline;
+  /* border-right: 1px solid #90B6D6; */
+}
+
+ul.nav li a {
+  padding: 0px 10px 0px 10px;
+  margin: 0;
+  color: #E6F0FF;
+}
+
+ul.nav li:last-child {
+	/* IE doesn't understand last-child. */
+	border: 0;
+}
+
+ul.nav a:hover {
+	color: #FFF;
+    text-decoration: underline;
+}
+
+ul.nav .selected a {
+	color: #FFF;
+}
+
+#header ul.nav li.downloads a {
+	font-weight: bold;
+	border-right: 0;
+}
+
+#footer ul.nav li a {
+	padding-left: 0;
+	padding-right: 1em;
+	margin-left: 1em;
+}
+
+#footer p {
+  line-height: 1.6em;
+}
+
+#footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* content */
+
+.content h1 {
+  margin-top: 10px;
+  padding-top: 0;
+  font-size: 3.27em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.content ul,
+.content li {
+	padding-left: 0.15em;
+	margin-left: 0.85em;
+	margin-bottom: .3em;
+	line-height: 1.6em;
+}
+
+.content p {
+  line-height: 1.6em;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+}
+
+.content :first-child {
+  margin-top: 0;
+}
+
+.content a {
+	color: #990000;
+	text-decoration: underline;
+}
+
+.sidebar a:hover, .content a:hover {
+	color: red;
+  text-decoration: underline;
+}
+
+.content h2 {
+	font-size: 2em;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	color: #990000;
+	padding-top: 10px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.content h3 {
+  font-size: 1.5em;
+	font-family: Georgia, serif;
+	font-weight: normal;
+  line-height: 1.4em;
+}
+
+.extra ul.presentations li{
+	margin-bottom: 1em;
+}
+
+.extra span.title{
+	font-style: italic;
+	display: block;
+	font-weight: bold;
+}
+.extra span.author{
+	display: block;
+}
+.extra span.presentations{
+	font-weight: bold;
+}
+
+.extra span.presentations a{
+	font-weight: normal;
+}
+
+.extra span.presentations a.pdf{
+	margin-right: 1em;
+}
+
+.extra table.open-meeting td{
+	margin-top: 1em;
+	border-top: 1px solid #fdf6f6;
+}
+
+.extra table.open-meeting td.session-descriptor{
+	background: #fdf6f6;
+}
+
+/* sidebar */
+
+.sidebar :first-child {
+  margin-top: 0;
+}
+
+.sidebar :last-child {
+  margin-bottom: 0;
+}
+
+.sidebar p {
+  line-height: 1.6em;
+}
+
+.sidebar div {
+	padding-bottom: 1.6em;
+}
+
+.sidebar h3 {
+  font-size: 1.4em;
+	font-family: Georgia, serif;
+	color: #990000;
+	font-weight: normal;
+	padding-top: .5em;
+	padding-bottom: 7px;
+}
+
+.sidebar ul {
+	color: #aaaaaa;
+    padding-left: 1em;
+}
+
+.sidebar ul li {
+	margin-left: 1.5em;
+	padding-bottom: .5em;
+	line-height: 1.4em;
+}
+
+.sidebar ul ul{
+    margin-top: .5em;
+}
+
+.sidebar li li{
+    margin-left: 0;
+}
+
+/* footer */
+
+#footer {
+	background: url(../images/footer.jpg) no-repeat bottom center;
+	padding: 20px 200px 20px 48px;
+	color: #BABABA;
+	height: 100px;
+}
+
+#footer p.nav a {
+	color: #E6F0FF;
+	border-right: 1px solid #E6F0FF;
+	padding: 0px 8px 0px 8px;
+    font-size: .8em;
+}
+
+#footer p.nav a:hover {
+	color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#footer p.nav a.first{
+	padding-left: 0px;
+}
+
+#footer p.nav a.last{
+	border-style: none;
+}
+
+#footer a:hover {
+	color: #ff9966;
+}
+
+#footer p {
+	margin-top: 0;
+}
+
+#footer .nav,
+#footer .nav li {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+/* utility */
+
+.clear {
+	clear: both;
+}
+
+/* subpage styles */
+  
+.subpage #width-oppressor {
+  background: url(../images/background-nosidebar.jpg) repeat-y #FFF;
+}
+
+.subpage #header {
+	padding: 0 25px;
+	height: 176px;
+  margin: 0;
+  background: url(../images/header.jpg) no-repeat bottom left;
+  text-align: right;
+}
+
+.subpage #header .series {
+	padding-top: 60px;
+	height: 88px;
+}
+ 
+.subpage #header h1 {
+	margin-top: 5px;
+}
+
+.subpage #main {
+	margin: 0 14px 0 14px;
+	padding: 0;
+}
+
+.subpage #main h1 {
+	padding: 15px 25px 15px 25px;
+	font-size: 1.6em;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	background-color: #fdf6f6;
+	color: #990000;
+	margin: 0;
+}
+
+.subpage #main .content {
+	padding: 25px;
+	padding-top: 15px;
+}
+
+/* reseach team page */
+
+.researcher {
+	float: left;
+	width: 47%;
+	padding-bottom: 15px;
+	padding-right: 3%;
+/*	border-top: 1px solid #CCCCCC;
+	padding-top: 15px;*/
+}
+
+.researcher strong {
+	color: #990000;
+}
+
+/* downloads page */
+
+h1 .links{
+	margin-left: 100px;
+	font-size: 12px;
+}
+
+.document h2 {
+  margin-left: -135px;
+  clear: both;
+}
+
+.document {
+  margin-left: 135px;
+  margin-bottom: 2em;
+  height: 155px;
+}
+
+.document img.cover {
+  margin-left: -135px;
+  float: left;
+  margin-bottom: 2em;
+}
+
+
+/*.firstrow {
+	border-top: none;
+	padding-top: 0;
+}*/
